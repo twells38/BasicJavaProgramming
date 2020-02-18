@@ -1,3 +1,5 @@
+/*Write a static method printTriangleNumber() take input from user */
+
 import java.util.Scanner;
 public class TriangleNumbers
 {
@@ -14,7 +16,7 @@ public class TriangleNumbers
      {
         int limit = number;
         
-        for(int i=0; i < limit;i++){
+        for(int i=1; i <= limit;i++){
           for(int j =1; j<=number;j++){
           System.out.print(j+" ");
                     
